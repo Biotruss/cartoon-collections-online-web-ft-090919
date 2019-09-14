@@ -19,7 +19,7 @@ end
 long_planeteer_calls(planeteer_calls)
 
 def find_the_cheese(potentially_cheesy_items)
-  cheeses = [gouda cheddar camembert]
+  cheeses = ["gouda" ,"cheddar" ,"camembert"]
   potentially_cheesy_items.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
   end
